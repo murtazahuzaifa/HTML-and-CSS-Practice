@@ -1,0 +1,26 @@
+<h1> </h1> == is a heading tab followed till h6
+<p> </p> == is for paragraph
+<br>  = is a line break tag like \n
+<ol type='a'> <li> </li> </ol> is order list
+<ul> <li> </li> </ul> is un-order list
+alt + shift +a is for add comment 
+alt + shirt+ down is for duplicate line
+
+● Structural markup: the elements that you can use to
+describe both headings and paragraphs
+● Semantic markup: which provides extra information; such
+as where emphasis is placed in a sentence, that something
+you have written is a quotation (and who said it), the
+meaning of acronyms, and so on
+
+
+Learn HTML by Hira Khan
+https://www.youtube.com/playlist?list=PLKvqnz8z1zWQ3BALy86tIXICkG874wAc6
+
+
+Learn CSS Intro by Hira Khan
+https://www.youtube.com/playlist?list=PLKvqnz8z1zWQSWIen_zUSEBmtqzPLuRob
+
+
+Learn JavaScript by Zeeshan Hanif
+https://www.youtube.com/playlist?list=PLKvqnz8z1zWQdc0NSLknxmxBch5gLOqyo

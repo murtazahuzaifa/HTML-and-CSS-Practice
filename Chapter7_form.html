@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!---->
+</head>
+<body>
+    <!-- type attr is for type of input want from the user -->
+    <!-- name is hidden value for specific input elements identity -->
+    <!-- size attr is for size of text field -->
+    <!-- maxlength is for max len taken by the input field -->
+    <!-- require attr is for form validation mean that if the field will be empty the form will not be submit-->
+    <form action="https://www.example.com/login.php" method="POST">
+    <fieldset>
+        <legend>Personal Details</legend>
+        <p> 
+        First Name <input type="text" name="firstname" size="20" maxlength="20" required /> <br/>
+        Last Name <input type="text" name="lastname"  size="20" maxlength="20"/> <br/>
+        Password <input type="password" name="password" size='20' maxlength="30"/> <br/>
+        Re-enter Password <input type="password" name="password" size='20' maxlength="30"/> <br/>
+        DateOfBirth <input type="date" name='dob'> <br/>
+        Email <input type="input" name='email'> <br/>
+
+        </p>
+    </fieldset> 
+    <p>
+        Comments: 
+    </p>
+    <textarea name="comment" rows="4" cols='30'>Enter you comments....</textarea>
+    
+    <p>Gender: 
+        <!-- label elem is use to fit elems inside it -->
+    <label for="male"><input id='male' type="radio" name='gender'/>Male </label>
+    <label for="female"><input id='female' type="radio" name='gender'/>Female </label>
+
+    <p>
+        Interests: 
+        <input type="checkbox" name='interests'value='men'/>Men's Clothing
+        <input type="checkbox" name='interests' value='women'/>Women's Clothing
+        <input type="checkbox" name='interests' value='women'/>Women's Clothing
+        <input type="checkbox" name='interests' value='women'/>Women's Clothing
+    </p>
+    <p>
+        Nationality:
+        <select name='countries' multiple> 
+            <option value='pakistan'>Pakistan</option>
+            <option value='usa'>USA</option>
+            <option value='caneda'>Caneda</option>
+            <option value='england'>England</option>
+            <option value="china">China</option>
+            <option value="india">India</option>
+        </select>
+    </p>
+    <p>
+        Upload Profile Picure:
+    </p>
+    <input type="file" name="profile picture"/>
+    <input type="submit" value='Upload'>
+    <input type="submit"/>
+    <input type="hidden" name='source' value='E:\HTML & CSS' ><!-- this is use for form identity  -->
+</form>
+</body>
+</html>
