@@ -1,0 +1,33 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: space-evenly;
+      -ms-flex-align: space-evenly;
+          align-items: space-evenly;
+  color: lightblue;
+}
+
+.header > .Button {
+  color: lightblue;
+}
+
+.header > .Button .Label {
+  padding: 10px;
+}
+
+body {
+  color: lightblue;
+}
+
+body:hover {
+  background-color: wheat;
+}
+
+body:hover .Button {
+  background-color: yellow;
+}
+/*# sourceMappingURL=style.css.map */

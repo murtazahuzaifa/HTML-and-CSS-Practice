@@ -1,0 +1,10 @@
+body {
+    color: $headerColor;
+    &:hover {
+        background-color: wheat;
+        .Button{
+            background-color: yellow;
+        }
+
+    }
+}

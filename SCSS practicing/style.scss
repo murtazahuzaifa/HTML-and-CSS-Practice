@@ -1,0 +1,15 @@
+$headerColor : lightblue;
+@import './functions';
+
+.header{
+    @include flexDisplay($alignItem:space-evenly);
+    color: $headerColor;
+    >.Button{
+        color: $headerColor;
+        .Label{
+            padding: 10px;
+        }
+    }
+}
+
+@import './body';
